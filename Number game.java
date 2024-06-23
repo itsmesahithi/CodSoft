@@ -4,7 +4,7 @@ public class NumberGame {
     Scanner scanner=new Scanner(System.in);
     int numberToGuess=36; 
     int numberOfTries=0; 
-     while (true) {
+     while(true) {
       System.out.println("Guess a number between 1 and 100:");
       int guess=scanner.nextInt();
       numberOfTries++;
